@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+bad_request	server.c	/^void bad_request(int connect_fd)$/;"	f
+buf_size	server.c	14;"	d	file:
+get_url	server.c	/^void get_url(char*buf,char*url,int*con,int size){$/;"	f
+in_path	server.c	/^char in_path[100];$/;"	v
+main	server.c	/^int main(int argc,char*argv[]){$/;"	f
+print_err	server.c	/^void print_err(const char* error){$/;"	f
+process_request	server.c	/^void process_request(void* sockfd){$/;"	f
+read_head_line	server.c	/^int read_head_line(int connect_fd,char* buf,int size){	$/;"	f
+response_err	server.c	/^void response_err(){$/;"	f
+response_head	server.c	/^void response_head(int connect_fd){$/;"	f
+response_msg	server.c	/^void response_msg(int connect_fd,char* url){$/;"	f
+response_not_found	server.c	/^void response_not_found(int connect_fd){$/;"	f
+send_file	server.c	/^void send_file(int connect_fd,char* path){$/;"	f
